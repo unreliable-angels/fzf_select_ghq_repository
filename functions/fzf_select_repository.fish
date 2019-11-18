@@ -1,4 +1,4 @@
-function fzf_select_repository -d "fzf source to cd to repository using ghq"
+function fzf_select_ghq_repository -d "fzf source to cd to repository using ghq"
     ghq list -p | fzf | read repository
 
     if test -n "$repository"

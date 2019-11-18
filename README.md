@@ -1,4 +1,4 @@
-# fzf_select_repository
+# fzf_select_ghq_repository
 
 fzf source to cd to repository using ghq.
 
@@ -10,7 +10,7 @@ fzf source to cd to repository using ghq.
 ## Installation
 
 ```
-$ fisher unreliable-angels/fzf_select_repository
+$ fisher unreliable-angels/fzf_select_ghq_repository
 ```
 
 ## Example key binding
@@ -19,7 +19,7 @@ $ fisher unreliable-angels/fzf_select_repository
 function fish_user_key_bindings
     ...
 
-    bind \cg fzf_select_repository
+    bind \cg fzf_select_ghq_repository
 
     ...
 end
